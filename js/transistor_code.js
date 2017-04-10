@@ -18,7 +18,7 @@ function affichage_image() {
 
 function create_block_question() {
   for (var i = 0; i < nb_question; i++) {
-    document.getElementById("question_tab").innerHTML += '<p></p><div id="question_type_'+i+'" class="question_type"><div id="question_name_'+i+'" class="question_name"></div><div id="question_image_'+i+'" class="question_image"></div><div id="question_entry_'+i+'" class="question_entry"><div id="question_answer_'+i+'" class="question_answer"><form><select id="rolling_menu_'+i+'" ></select></form> </div><div id="question_validation_'+i+'" class="question_validation"></div><p></p></div><p></p></div>';
+    document.getElementById("question_tab").innerHTML += '<p></p><div id="question_type_'+i+'" class="question_type"><div id="question_name_'+i+'" class="question_name"></div><div id="question_image_'+i+'" class="question_image"></div><div id="question_entry_'+i+'" class="question_entry"><div id="question_answer_'+i+'" class="question_answer"><form><select id="rolling_menu_'+i+'" ></select></form> </div><div id="question_validation_'+i+'" class="question_validation"><input id="button_'+i+'" type="button" value="Confirmer"></div><p></p></div><p></p></div><p></p>';
   }
 }
 
