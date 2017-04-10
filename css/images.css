@@ -1,0 +1,19 @@
+html {
+	background: #ddd url(img/html.png);
+	}
+#global {
+	padding: 0 10px;
+	background: url(img/global.png) center repeat-y;
+	}
+#header {
+	background: #7fcf2e url(img/header.jpg) no-repeat;
+	color: #fff;
+	height: 201px;
+	}
+#header h1 {
+	margin: 0;
+	}
+#footer {
+	background: #7fcf2e url(img/footer.png) repeat-x;
+	color: #fff;
+	}

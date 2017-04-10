@@ -1,0 +1,47 @@
+body {
+	height: 100%;
+	margin: 0;
+
+	background-color: RGBa(197,227,216,0.3);
+
+	margin: 2%;
+	padding: 2%;
+	border: 1px #801FDA solid;
+	border-radius: 35px 35px 35px 35px;
+	}
+
+
+#global {
+	min-height: 100%;
+	width: 750px;
+	margin: 0 auto;
+	position: relative;
+
+	background-color: #D4D4D4;
+	margin: 5%;
+	padding: 5%;
+	border: 1px #801FDA solid;
+	border-radius: 35px 35px 35px 35px;
+
+	}
+footer {
+	position: absolute;
+	width: 750px;
+	bottom: 0;
+	}
+#content {
+	/* Ã©viter la superposition
+	du pied de page et du contenu */
+	padding-bottom: 60px;
+	/*overflow: auto;*/
+	}
+#side_bar {
+	float: right;
+	/*width: 199px;*/
+	}
+#question_tab {
+	/* On laisse de la place Ã  droite
+	pour l'autre colonne */
+	float: left;
+	width: 530px;
+	}

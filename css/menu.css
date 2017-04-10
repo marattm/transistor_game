@@ -1,0 +1,20 @@
+ul#menu {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	}
+ul#menu li a {
+	display: block;
+	height: 30px;
+	background: url(img/fond_lien.png) no-repeat left top;
+	padding-left: 35px;
+	margin: 2px 0;
+	border-bottom: 1px solid #7fcf2e;
+	color: #6c0;
+	font: small-caps 1.1em/30px Georgia,serif;
+	text-decoration: none;
+}
+ul#menu li a:hover {
+	background-position: left bottom;
+	color: #c30;
+}

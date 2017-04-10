@@ -1,0 +1,13 @@
+pre {
+	margin: 0 auto;
+	width: 500px;
+	overflow: auto;
+	padding: 5px;
+	border: 1px solid #ccc;
+	}
+.tip {
+	padding: 5px 5px 5px 50px;
+	border: 1px solid #c66;
+	background: url(img/tip.png) 5px 5px no-repeat;
+	}
+	
